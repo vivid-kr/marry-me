@@ -1,19 +1,12 @@
 package leetcode.easy;
 
+import leetcode.LeetUtils.ListNode;
+
 /**
  * TODO Time
  */
 public class No_0021_MergeTwoSortedLists {
 
-  public class ListNode {
-
-    int val;
-    ListNode next;
-
-    ListNode(int x) {
-      val = x;
-    }
-  }
 
   /**
    * Runtime: 0ms

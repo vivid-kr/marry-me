@@ -1,19 +1,11 @@
 package leetcode.hard;
 
+import leetcode.LeetUtils.ListNode;
+
 /**
  * TODO Time
  */
 public class No_0025_ReverseNodesInKGroup {
-
-  public static class ListNode {
-
-    int val;
-    ListNode next;
-
-    ListNode(int x) {
-      val = x;
-    }
-  }
 
   /**
    * Runtime: 0~1ms, beat 100%~35%

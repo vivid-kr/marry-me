@@ -54,7 +54,7 @@ public class No_0086_PartitionList {
   public static void main(String[] args) {
     No_0086_PartitionList no = new No_0086_PartitionList();
 
-    ListNode list = LeetUtils.array2ListNode(new int[]{1, 4, 3, 2, 5, 2});
+    ListNode list = ListNode.array2ListNode(new int[]{1, 4, 3, 2, 5, 2});
     System.out.println(no.partition(list, 3));
   }
 }

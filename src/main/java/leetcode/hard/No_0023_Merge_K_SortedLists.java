@@ -1,20 +1,12 @@
 package leetcode.hard;
 
+import leetcode.LeetUtils.ListNode;
+
 /**
  * An implementation not good enough
  */
 public class No_0023_Merge_K_SortedLists {
 
-
-  public static class ListNode {
-
-    int val;
-    ListNode next;
-
-    ListNode(int x) {
-      val = x;
-    }
-  }
 
   public static ListNode mergeTwo(ListNode a, ListNode b) {
     if (a == null) {

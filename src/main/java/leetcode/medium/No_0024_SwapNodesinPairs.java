@@ -1,19 +1,11 @@
 package leetcode.medium;
 
+import leetcode.LeetUtils.ListNode;
+
 /**
  * TODO Time
  */
 public class No_0024_SwapNodesinPairs {
-
-  public static class ListNode {
-
-    int val;
-    ListNode next;
-
-    ListNode(int x) {
-      val = x;
-    }
-  }
 
   /**
    * Runtime: beat 100%
