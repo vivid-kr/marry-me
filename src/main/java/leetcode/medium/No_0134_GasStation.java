@@ -1,11 +1,9 @@
-package leetcode;
-
-import java.util.*;
+package leetcode.medium;
 
 /**
  * TODO Time
  */
-public class No_0000_Template {
+public class No_0134_GasStation {
 
   public String func(String str) {
     return "0";
@@ -32,7 +30,7 @@ public class No_0000_Template {
   public static void main(String[] args) {
     String input = "";
     String expect = "0";
-    String actual = (new No_0000_Template()).func(input);
+    String actual = (new No_0134_GasStation()).func(input);
 
     System.out.println(actual);
     System.out.println(expect.equals(actual));
